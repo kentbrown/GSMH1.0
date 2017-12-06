@@ -1,0 +1,33 @@
+div.main{
+	width:80%;
+	margin:0 auto;
+}
+
+#foot-box{
+	padding:15px 0;
+	position:relative;
+	height:140px;
+}
+#foot-box .logo{
+	padding-left: 60px;
+	position:absolute;
+}
+.foot-list{
+	position:absolute;
+	width:40%;
+	left:20%;
+}
+.foot-list ul{
+	font-size:18px;
+	float:left;
+	width:25%;	
+}
+
+.foot-other{
+	
+	padding-right:5%;
+	float:right;
+}
+.other{
+	font-size:20px;
+}

@@ -1,0 +1,51 @@
+#header iframe{
+	width:100%;
+	height:100px;
+	margin: 20px auto 0 auto;	
+}
+#footer iframe{
+	width:100%;
+	height:170px;
+}
+ iframe{
+	border:none;
+}
+/******************************/
+h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,pre{
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+
+body{
+	margin:0 auto;
+	font: 14px/1.5 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', "Hiragino Sans GB",Arial,"Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei",'PingFang SC', SimSun, sans-serif;
+	color:#666;
+	
+}
+iframe{
+	border:none;
+}
+/*设置页面中 a元素的默认样式*/
+a{
+	text-decoration:none;
+	color:#808080;
+}
+a:hover{
+	color:#333;
+}
+/*防止图片多出额外的3px边框*/
+img{
+	vertical-align:bottom;
+}
+/*消除浮动给父元素高度带来的影响*/
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.main{
+	width:80%;
+	margin:0 auto;
+}

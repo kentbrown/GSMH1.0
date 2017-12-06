@@ -1,0 +1,13 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,pre,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	font:12px "simhei",Arial,Helvetica,sans-serif;
+	color:#666;
+	width:1600px;
+}
+img{
+	vertical-align:bottom;
+}

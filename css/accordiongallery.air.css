@@ -1,0 +1,50 @@
+/* General */
+.accordiongallery.air {
+	overflow: hidden;
+	font-family: Arial, Helvetica, 'Bitstream Vera Sans', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+/* Vertical Scrollers */
+
+.accordiongallery.air .accordiongallery-scrollup:hover, .accordiongallery.air .accordiongallery-scrolldown:hover {
+	opacity: 1;
+}
+.accordiongallery.air .accordiongallery-scrolldown {
+	background-position: bottom center;
+}
+.accordiongallery.air .active-section {
+	background-color: rgba(208, 208, 218, 0);
+}
+.accordiongallery.air .inactive-section a {
+	opacity: 0.5;	
+}
+/* Image View */
+.accordiongallery.air .accordiongallery-preview {	
+	position: relative;
+	opacity: 0;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+
+/* Horizontal Scroller */
+.accordiongallery.air .accordiongallery-scrollleft, .accordiongallery.air .accordiongallery-scrollright {		
+	width: 10px;
+	height: 65px;
+	opacity: 0.6;	
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-image: url(air-arrow-horizontal.png);
+	
+	text-indent: -9999px;
+}
+.accordiongallery.air .accordiongallery-scrollright {
+	float: right;
+	background-position: right center;
+}
+.accordiongallery.air .accordiongallery-scrollleft:hover, .accordiongallery.air .accordiongallery-scrollright:hover {	
+	opacity: 1;
+}

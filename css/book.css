@@ -1,0 +1,38 @@
+.book-top{
+    justify-content:center; /* 子元素水平居中 */
+    align-items:center;/*子元素垂直居中*/
+    display:-webkit-flex;
+}
+.top-pic{
+    position: relative;
+    margin:0 auto;
+}
+.top-pic img{
+    width:100%;
+    height: 840px;
+}
+.tm{
+    position: absolute;
+    width: 80%;
+    height: 840px;
+    background-color: #000;
+    opacity: 0.6;
+}
+.top-text{
+    width:100%;
+    position: absolute;
+    text-align: center;
+}
+.sp1{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+}
+.sp2{
+    color: rgb(237, 20, 91);
+    font-size: 72px;
+}
+.sp3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin:40px;
+}
